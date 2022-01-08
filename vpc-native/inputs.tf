@@ -56,7 +56,7 @@ variable "enable_private_endpoint" {
 
 variable "enable_private_nodes" {
   description = "A boolean to enable private (non public) nodes"
-  default     = true
+  default     = false
 }
 
 variable "master_ipv4_cidr_block" {
